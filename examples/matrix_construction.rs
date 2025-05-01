@@ -1,4 +1,4 @@
-extern crate nalgebra as na;
+extern crate nalgebra_randv09 as na;
 
 use na::{DMatrix, Matrix2x3, RowVector3, Vector2};
 

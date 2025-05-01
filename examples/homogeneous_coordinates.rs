@@ -1,6 +1,6 @@
 #[macro_use]
 extern crate approx;
-extern crate nalgebra as na;
+extern crate nalgebra_randv09 as na;
 
 use na::{Isometry2, Point2, Vector2};
 use std::f32;

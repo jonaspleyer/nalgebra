@@ -1,6 +1,6 @@
 #![cfg_attr(rustfmt, rustfmt_skip)]
 
-extern crate nalgebra as na;
+extern crate nalgebra_randv09 as na;
 
 use na::{DMatrix, Dyn, Matrix2x3, Matrix3x2, Const};
 

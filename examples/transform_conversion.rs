@@ -1,4 +1,4 @@
-extern crate nalgebra as na;
+extern crate nalgebra_randv09 as na;
 
 use na::{Isometry2, Similarity2, Vector2};
 use std::f32::consts;

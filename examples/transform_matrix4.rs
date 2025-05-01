@@ -1,6 +1,6 @@
 #[macro_use]
 extern crate approx;
-extern crate nalgebra as na;
+extern crate nalgebra_randv09 as na;
 
 use na::{Matrix4, Point3, Vector3};
 use std::f32::consts;

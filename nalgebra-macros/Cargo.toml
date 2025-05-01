@@ -21,4 +21,4 @@ quote = "1.0"
 proc-macro2 = "1.0"
 
 [dev-dependencies]
-nalgebra = { version = "0.33", path = ".." }
+nalgebra = { package="nalgebra-randv09", version = "0.33", path = ".." }

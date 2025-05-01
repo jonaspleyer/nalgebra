@@ -1,7 +1,7 @@
 #![cfg_attr(rustfmt, rustfmt_skip)]
 #[macro_use]
 extern crate approx; // for assert_relative_eq
-extern crate nalgebra as na;
+extern crate nalgebra_randv09 as na;
 use na::{Matrix4, Matrix4x3, Vector4};
 
 fn main() {

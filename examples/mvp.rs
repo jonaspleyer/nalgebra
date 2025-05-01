@@ -1,6 +1,6 @@
 #![allow(unused_variables)]
 
-extern crate nalgebra as na;
+extern crate nalgebra_randv09 as na;
 
 use na::{Isometry3, Perspective3, Point3, Vector3};
 use std::f32::consts;

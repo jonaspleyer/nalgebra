@@ -12,7 +12,8 @@ compile_error!(
 #[cfg(all(feature = "debug", feature = "compare", feature = "rand"))]
 #[macro_use]
 extern crate approx;
-extern crate nalgebra as na;
+extern crate nalgebra_randv09 as na;
+extern crate nalgebra_randv09 as nalgebra;
 extern crate num_traits as num;
 #[cfg(feature = "rand")]
 extern crate rand_package as rand;
